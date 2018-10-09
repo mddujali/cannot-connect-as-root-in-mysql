@@ -43,3 +43,6 @@ dbc_dbuser='phpmyadmin'
 #       to a database, if one is required
 dbc_dbpass='some_password'
 ```
+
+## References
+- [https://askubuntu.com/questions/763336/cannot-enter-phpmyadmin-as-root-mysql-5-7](https://askubuntu.com/questions/763336/cannot-enter-phpmyadmin-as-root-mysql-5-7)
