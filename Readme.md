@@ -15,9 +15,9 @@ Run the following commands (replacing `new_user` by the desired password and `so
 
 ```console
 > CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'some_password';
-> GRANT ALL PRIVILEGES ON *.* TO 'new_user'@'localhost' WITH GRANT OPTION;  
+> GRANT ALL PRIVILEGES ON *.* TO 'new_user'@'localhost' WITH GRANT OPTION; 
 > FLUSH PRIVILEGES;
-```  
+```
 
 ## 3. Optional: allow remote connections
 > **Remember:** allow a remote user to have all privileges is a security concern.
@@ -28,8 +28,8 @@ Run the following commands (replacing `new_user` by the desired password and `so
 > FLUSH PRIVILEGES;
 ```
 
-## 4. Update phpMyAdmin
-Follow step 1 and 2 then before this step.  
+## 4. Optional: Update phpMyAdmin
+Follow step 1 and 2 then before this step.
 
 Using `sudo`, edit `/etc/dbconfig-common/phpmyadmin.conf ` file updating user/password values in the following sections (replacing `some_password` by the password used in step 2):
 
