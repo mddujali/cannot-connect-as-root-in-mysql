@@ -10,7 +10,7 @@ The simplest (and safest) solution will be create a new user and grant required 
 $ sudo mysql --user=root mysql
 ```
 
-## 2. Create a user for phpMyAdmin
+## 2. Create a user for MySQL
 Run the following commands (replacing `new_user` by the desired password and `some_password` by the desired password):
 
 ```console
